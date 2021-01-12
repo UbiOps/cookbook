@@ -1,5 +1,7 @@
 # Amazon review and UbiOps
 
+_Download link for necessary files_: [Amazon review pipeline files](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/amazon-review-pipeline/amazon-review-pipeline)
+
 In this example we will show you the following:
 - How to deploy a pipeline that selects data and sends it to the model for prediction to UbiOps within seconds
 - How to easily trigger the pipeline everyday and output the results
@@ -34,7 +36,7 @@ Click on *create token* to create a new token.
 Give your new token a name, save the token in safe place and assign the 'project-editor' role to the token.
 The role can be assigned on project level.
 
-**Step 2:** Download the [amazon-review-pipeline](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/docs/amazon-review-pipeline/amazon-review-pipeline) folder and open `amazon_review.ipynb`. In the notebook you will find a space
+**Step 2:** Download the [amazon-review-pipeline](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/amazon-review-pipeline/amazon-review-pipeline) folder and open `amazon_review.ipynb`. In the notebook you will find a space
 to enter your API token and the name of your project in UbiOps. Paste the saved API token in the notebook in the indicated spot
 and enter the name of the project in your UbiOps environment. This project name can be found at the top of your screen in the
 WebApp. In the image in step 1 the project name is *scikit-example*.

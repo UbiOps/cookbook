@@ -1,5 +1,7 @@
 # Python Scikit learn and UbiOps
 
+_Download link for necessary files_: [scikit-deployment](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/scikit-deployment/scikit-deployment)
+
 In this example we will show you the following:
 - How to make a training pipeline in UbiOps which preprocesses the data and trains and tests a KNN model using scikit
 - How to make a production pipeline in UbiOps which takes in new data, processes it and feeds it to a trained model for 
@@ -49,7 +51,7 @@ Click on *create token* to create a new token.
 Give your new token a name, save the token in safe place and assign the 'project-editor' role to the token.
 The role can be assigned on project level.
 
-**Step 2:** Download the [scikit-deployment](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/docs/scikit-deployment/scikit-deployment) folder and open `scikit_deployment.ipynb`. In the notebook you will find a space
+**Step 2:** Download the [scikit-deployment](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/scikit-deployment/scikit-deployment) folder and open `scikit_deployment.ipynb`. In the notebook you will find a space
 to enter your API token and the name of your project in UbiOps. Paste the saved API token in the notebook in the indicated spot
 and enter the name of the project in your UbiOps environment. This project name can be found in the top of your screen in the
 WebApp. In the image in step 1 the project name is *scikit-example*.

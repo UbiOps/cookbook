@@ -1,5 +1,7 @@
 # Triggered Request from GCP Cloud Functions
 
+_Download link for necessary files_: [Triggered request from GCP cloud functions files](https://github.com/UbiOps/cookbook/tree/master/google-cloud-functions-triggered-request)
+
 Most cloud providers offer a serverless function platform, such as Lambda in AWS, Cloud Functions in the Google Cloud Platform or Functions in Azure. 
 These functions can be used to execute code based on events in services of those cloud providers, such as when new data is published in streaming solutions or when files are added to blob storage.
 Using these functions and triggers, you can automatically push data to deployments or pipelines when new data or files become available by sending a request to the UbiOps API from the function.
@@ -25,7 +27,7 @@ the Cloud Functions, you can create a dummy deployment/pipeline by going through
 if you are going to use an existing deployment or pipeline, you can skip this step.
 
 **Step 2 (optional):** In this step we will create a dummy deployment and/or pipeline and deploy it to your UbiOps environment.
-You can start by downloading the [*cloud-functions-triggered-request*](https://github.com/UbiOps/cookbook/tree/master/docs/google-cloud-functions-triggered-request) folder and opening *dummy_deployment_pipeline_creation.ipynb*. In the notebook you will find a space
+You can start by downloading the [*cloud-functions-triggered-request*](https://github.com/UbiOps/cookbook/tree/master/google-cloud-functions-triggered-request) folder and opening *dummy_deployment_pipeline_creation.ipynb*. In the notebook you will find a space
 to enter your API token and the name of your project in UbiOps. Paste the saved API token in the notebook in the indicated spot
 and enter the name of the project in your UbiOps environment. This project name can be found in the top of your screen in the
 WebApp. In the image in step 1 the project name is *cloud-functions-example*.

@@ -1,5 +1,7 @@
 # Blobs as temporary storage
 
+_Download link for necessary files_: [Blobs as temporary storage files](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/blobs-temporay-storage/blobs-temporay-storage)
+
 In UbiOps the storage of deployments is not persistent. This means that even
 though you can keep things in memory or save them to the local file system,
 it is not guaranteed that these files persist between different deployment
@@ -32,7 +34,7 @@ Click on *create token* to create a new token.
 Give your new token a name, save the token in safe place and assign the following roles to the token: project editor and blob admin.
 These roles can be assigned on project level.
 
-**Step 2:** Download the [blobs-temporay-storage](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/docs/blobs-temporay-storage/blobs-temporay-storage) folder and open `blobs-temporay-storage.ipynb`. In the notebook you will find a space
+**Step 2:** Download the [blobs-temporay-storage](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/blobs-temporay-storage/blobs-temporay-storage) folder and open `blobs-temporay-storage.ipynb`. In the notebook you will find a space
 to enter your API token and the name of your project in UbiOps. Paste the saved API token in the notebook in the indicated spot
 and enter the name of the project in your UbiOps environment. This project name can be found in the top of your screen in the
 WebApp. In the image in step 1 the project name is *scikit-example*.

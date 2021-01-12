@@ -11,6 +11,7 @@ testing the examples. *
 
 
 ## Requirements
+
 To be able to use the UbiOps cookbook you need three things:
 - You need to have the UbiOps client library installed. This can be done via pip install or via Setuptools. For more 
 information see [the GitHub page](https://github.com/UbiOps/client-library-python).
@@ -19,19 +20,22 @@ information see [the GitHub page](https://github.com/UbiOps/client-library-pytho
 
 
 ## How does it work?
+
 Every *recipe* contains a standalone example with all the material you need to test it out. They are all centered around 
 a jupyter notebook that contains both fully functioning code to create the examples in your own UbiOps environment, and 
 explanations on how it's all done. 
 
 
 ## The current recipes
-- [Creating a training and production pipeline with Scikit Learn in UbiOps](scikit-deployment/README.md)
-- [Triggering a deployment/pipeline request from Google Cloud Functions](google-cloud-functions-triggered-request/README.md)
-- [Using blobs as temporary storage](blobs-temporary-storage/README.md)
-- [Azure Data Factory and UbiOps pipeline interaction tutorial](azure-data-factory/README.md)
-- [Pipeline that matches, orders and visualises a list of Pokemon
-](pokemonpipeline/Readme.md)
-- [Scheduled pipeline that classifies Amazon reviews](amazon-review-pipeline/README.md)
+
+| Topic and link of recipe                                                                                                  |
+|---------------------------------------------------------------------------------------------------------------------------|
+| [Creating a training and production pipeline with Scikit Learn in UbiOps](scikit-deployment/README.md)                    | 
+| [Triggering a deployment/pipeline request from Google Cloud Functions](google-cloud-functions-triggered-request/README.md)|
+| [Using blobs as temporary storage](blobs-temporary-storage/README.md)                                                     |
+| [Azure Data Factory and UbiOps pipeline interaction tutorial](azure-data-factory/README.md)                               |
+| [Pipeline that matches, orders and visualises a list of Pokemon](pokemonpipeline/Readme.md)                               |
+| [Scheduled pipeline that classifies Amazon reviews](amazon-review-pipeline/README.md)                                     |
 
 *It might be that you will need to make some space in your existing environment to run the examples though to stay 
 within the limits.

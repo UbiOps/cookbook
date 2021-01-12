@@ -1,5 +1,7 @@
 # Pokemon Pipeline
 
+_Download link for necessary files_: [Pokemon pipeline files](https://github.com/UbiOps/cookbook/tree/master/pokemon-pipeline/pokemon-pipeline)
+
 This example is based on an article previously posted on the UbiOps blog (you can read it [here](https://ubiops.com/how-to-create-a-data-pipeline-in-ubiops/)).
 
 This pipeline takes a list of pokemon as input and outputs a visualization.
@@ -34,7 +36,7 @@ Click on *create token* to create a new token.
 Give your new token a name, save the token in safe place and assign the following roles to the token: project editor and blob admin.
 These roles can be assigned on project level.
 
-**Step 2:** Download the [pokemon-pipeline](https://github.com/UbiOps/cookbook/tree/master/docs/pokemon-pipeline/pokemon-pipeline) folder and open the notebook. In the notebook you will find a space
+**Step 2:** Download the [pokemon-pipeline](https://github.com/UbiOps/cookbook/tree/master/pokemon-pipeline/pokemon-pipeline) folder and open the notebook. In the notebook you will find a space
 to enter your API token and the name of your project in UbiOps. Paste the saved API token in the notebook in the indicated spot
 and enter the name of the project in your UbiOps environment. This project name can be found in the top of your screen in the
 WebApp. In the image in step 1 the project name is *scikit-example*.
