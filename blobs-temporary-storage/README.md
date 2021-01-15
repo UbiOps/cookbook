@@ -9,7 +9,9 @@ requests. This is due to the way our platform scales efficiently.
 
 In this example we will teach you how to use blobs as a means of temporary
 storage. This can be useful in the following situations:
+
 - A form of statefulness in pipelines and deployments
+
 - Use a blob in every deployment of a pipeline without passing it through all
  of the time.
 

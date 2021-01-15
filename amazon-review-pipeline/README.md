@@ -3,7 +3,9 @@
 _Download link for necessary files_: [Amazon review pipeline files](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/amazon-review-pipeline/amazon-review-pipeline)
 
 In this example we will show you the following:
+
 - How to deploy a pipeline that selects data and sends it to the model for prediction to UbiOps within seconds
+
 - How to easily trigger the pipeline everyday and output the results
 
 For this example we will use a model trained on (parts of) the amazon review dataset as taken from https://nijianmo.github.io/amazon/index.html*. The model takes in a written review of a product and outputs a classification of whether the review will be positive (1) or negative (0). This model can be used to automatically monitor the reviews of certain products. With using UbiOps, we can deploy a pipeline that is triggered every day that predicts and monitors the review score of products. If the score drops below a certain threshold, a signal is send, indicating that there may be something wrong with the product. This mechanism can of course be extended to other use cases involving textual (sentiment) analysis.

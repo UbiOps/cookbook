@@ -3,7 +3,9 @@
 _Download link for necessary files_:[Azure Data Factory example files](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/azure-data-factory/azure-data-factory)
 
 In this example we will show you the following:
+
 - How to create a pipeline in the UbiOps platform
+
 - How to create an Azure Data Factory pipeline which interacts with a UbiOps pipeline
 
 

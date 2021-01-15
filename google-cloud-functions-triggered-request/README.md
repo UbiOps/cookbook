@@ -27,7 +27,7 @@ the Cloud Functions, you can create a dummy deployment/pipeline by going through
 if you are going to use an existing deployment or pipeline, you can skip this step.
 
 **Step 2 (optional):** In this step we will create a dummy deployment and/or pipeline and deploy it to your UbiOps environment.
-You can start by downloading the [*cloud-functions-triggered-request*](https://github.com/UbiOps/cookbook/tree/master/google-cloud-functions-triggered-request) folder and opening *dummy_deployment_pipeline_creation.ipynb*. In the notebook you will find a space
+You can start by downloading the [*google-cloud-functions-triggered-request*](https://github.com/UbiOps/cookbook/tree/master/google-cloud-functions-triggered-request) folder and opening *dummy_deployment_pipeline_creation.ipynb*. In the notebook you will find a space
 to enter your API token and the name of your project in UbiOps. Paste the saved API token in the notebook in the indicated spot
 and enter the name of the project in your UbiOps environment. This project name can be found in the top of your screen in the
 WebApp. In the image in step 1 the project name is *cloud-functions-example*.
@@ -40,17 +40,23 @@ We will now trigger requests to this deployment or pipeline by means of a Google
 Whether you are trying to trigger a deployment or pipeline request, this request can be either
 a regular request or a batch request. Thus, depending on what you want to trigger,
 you have in total 4 possibilities, where each of these possibilities has a different Google Cloud Function that triggers the request:
+
  - **Regular deployment request:** The corresponding Google Cloud Function can be retrieved
- by downloading the [*deployment-request*](https://github.com/UbiOps/cookbook/tree/master/docs/cloud-functions-triggered-request/functions/deployment-request) folder.
+ by downloading the [*deployment-request*](https://github.com/UbiOps/cookbook/tree/master/docs/google-cloud-functions-triggered-request/functions/deployment-request) folder.
+
  - **Deployment batch request:** The corresponding Google Cloud Function can be retrieved
- by downloading the [*deployment-batch-request*](https://github.com/UbiOps/cookbook/tree/master/docs/cloud-functions-triggered-request/functions/deployment-batch-request) folder.
+ by downloading the [*deployment-batch-request*](https://github.com/UbiOps/cookbook/tree/master/docs/google-cloud-functions-triggered-request/functions/deployment-batch-request) folder.
+
  - **Regular pipeline request:** The corresponding Google Cloud Function can be retrieved
- by downloading the [*pipeline-request*](https://github.com/UbiOps/cookbook/tree/master/docs/cloud-functions-triggered-request/functions/pipeline-request) folder.
+ by downloading the [*pipeline-request*](https://github.com/UbiOps/cookbook/tree/master/docs/google-cloud-functions-triggered-request/functions/pipeline-request) folder.
+ 
  - **Pipeline batch request:** The corresponding Google Cloud Function can be retrieved
- by downloading the [*pipeline-batch-request*](https://github.com/UbiOps/cookbook/tree/master/docs/cloud-functions-triggered-request/functions/pipeline-batch-request) folder.
+ by downloading the [*pipeline-batch-request*](https://github.com/UbiOps/cookbook/tree/master/docs/google-cloud-functions-triggered-request/functions/pipeline-batch-request) folder.
 
 Each of the listed folders follows the same structure. It consists of:
+
 - a *main.py* file where the actual Cloud Function code resides
+
 - a *requirements.txt* file where the dependencies needed for running the function are listed
 
 **Step 4:**
@@ -101,7 +107,9 @@ that contains the code, run the following command:
 `gcloud functions deploy ubiops_request --runtime python37 --trigger-topic YOUR_TOPIC_NAME`
 
 You can use the following values for the --runtime flag to specify your preferred Python version:
+
 - python37
+
 - python38
 
 where *YOUR_TOPIC_NAME* is the name of the Pub/Sub topic to which the function will be subscribed.
