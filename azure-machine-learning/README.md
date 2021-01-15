@@ -4,9 +4,7 @@
 _Download link for necessary files_: [Azure ML services example](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/azure-machine-learning/azure-machine-learning).
 
 In this notebook we will show you:
-
 - how to train a model on Azure ML
-
 - how to deploy that model on UbiOps
 
 For this example we will train a model on the MNIST dataset with Azure ML services and then deploy the trained model on UbiOps. Parts of this notebook were directly taken from [Azure documentation](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-train-models-with-aml), which can be found as another notebook [here](https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/image-classification-mnist-data/img-classification-part1-training.ipynb). 

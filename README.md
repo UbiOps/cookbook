@@ -35,7 +35,6 @@ information see our <a href="https://github.com/UbiOps/client-library-python" ta
 | Topic and link to recipe                                                                                                  |
 |---------------------------------------------------------------------------------------------------------------------------|
 | [Creating a training and production pipeline with Scikit Learn in UbiOps](scikit-deployment/README.md)                    | 
-| [Triggering a deployment/pipeline request from Azure Functions](azure-functions-triggered-request/README.md)|
 | [Triggering a deployment/pipeline request from Google Cloud Functions](google-cloud-functions-triggered-request/README.md)|
 | [Using blobs as temporary storage](blobs-temporary-storage/README.md)                                                     |
 | [Azure Data Factory and UbiOps pipeline interaction tutorial](azure-data-factory/README.md)                               |

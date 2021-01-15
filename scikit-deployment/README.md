@@ -3,9 +3,7 @@
 _Download link for necessary files_: [Scikit example files](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/scikit-deployment/scikit-deployment)
 
 In this example we will show you the following:
-
 - How to make a training pipeline in UbiOps which preprocesses the data and trains and tests a KNN model using scikit
-
 - How to make a production pipeline in UbiOps which takes in new data, processes it and feeds it to a trained model for 
 prediction/classification
 
