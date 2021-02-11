@@ -24,23 +24,32 @@ UbiOps account. And the steps in the notebook explain how it's all done.
 To be able to use the UbiOps cookbook you need three things:
 
 - You need to have the UbiOps client library installed. This can be done via pip install or via Setuptools. For more 
-information see our <a href="https://github.com/UbiOps/client-library-python" target="_blank">the GitHub page</a>.
+information see our <a href="https://github.com/UbiOps/client-library-python" target="_blank">GitHub page</a>.
+
 - You need to be able to run Jupyter Notebook. See the <a href="https://jupyter.org/install" target="_blank">installation guide</a> 
   for more information.
+
 - You need to have a UbiOps account. You can create a free account <a href="https://app.ubiops.com/sign-up" target="_blank">here</a>.
 
 
 ## The current recipes
 
-| Topic and link to recipe                                                                                                  |
-|---------------------------------------------------------------------------------------------------------------------------|
-| [Creating a training and production pipeline with Scikit Learn in UbiOps](scikit-deployment/README.md)                    | 
-| [Triggering a deployment/pipeline request from Google Cloud Functions](google-cloud-functions-triggered-request/README.md)|
-| [Using blobs as temporary storage](blobs-temporary-storage/README.md)                                                     |
-| [Azure Data Factory and UbiOps pipeline interaction tutorial](azure-data-factory/README.md)                               |
-| [Using Azure ML services to train a model and deploy on UbiOps](azure-machine-learning/README.md)                         |
-| [Pipeline that matches, orders and visualises a list of Pokemon](pokemon-pipeline/README.md)                              |
-| [Scheduled pipeline that classifies Amazon reviews](amazon-review-pipeline/README.md)                                     |
+
+| Topic and link to recipe                                                                                                  | Functionalities of UbiOps addressed |
+|---------------------------------------------------------------------------------------------------------------------------| ------------------------------------|
+| [Creating a training and production pipeline with Scikit Learn in UbiOps](scikit-deployment/README.md)                    | Deployments, pipelines              |
+| [Deploying a TensorFlow model in UbiOps](tensorflow-example/README.md)                                                    | Deployments                         |
+| [Deploying an XGBoost model in UbiOps](xgboost-deployment/README.md)                                                      | Deployments                         |
+| [Triggering a deployment/pipeline request from Azure Functions](azure-functions-triggered-request/README.md)              | Different forms of requests, integration |
+| [Triggering a deployment/pipeline request from Google Cloud Functions](google-cloud-functions-triggered-request/README.md)| Different forms of requests, integration |
+| [Using blobs as temporary storage](blobs-temporary-storage/README.md)                                                     | Blobs                               |
+| [Azure Data Factory and UbiOps pipeline interaction tutorial](azure-data-factory/README.md)                               | Integration, pipelines              |
+| [Using Azure ML services to train a model and deploy on UbiOps](azure-machine-learning/README.md)                         | Integration, deployments            |
+| [Pipeline that matches, orders and visualises a list of Pokemon](pokemon-pipeline/README.md)                              | Pipelines                           |
+| [Scheduled pipeline that classifies Amazon reviews](amazon-review-pipeline/README.md)                                     | Request schedules, pipelines        |
+| [Deploying a recommender model using Apriori in UbiOps](recommender-system/README.md)                                     | Deployments                         |
+| [Integration with mlflow model tuning tool](mlflow-example/README.md)                                                     | Deployments                         |
+|                                   |
 
 *You might need to make some space in your project by deleting deployment versions if you want to run all the examples and stay 
 within the limits of your account.
@@ -63,5 +72,5 @@ to enter your API token and the name of your project in UbiOps. Paste the saved 
 and enter the name of the project in your UbiOps environment. This project name can be found in the top of your screen in the
 WebApp. In the image in step 1 the project name is *scikit-example*.
 
-**Step 3:** Run the Jupyter notebook and everything will be automatically deployed to your UbiOps environment! 
+**Step 3:** Run the Jupyter notebook and everything will be automatically deployed to your UbiOps environment!
 Afterwards you can explore the code in the notebook or explore the application in the WebApp.
