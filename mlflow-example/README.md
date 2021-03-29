@@ -22,7 +22,7 @@ The resulting deployment is made up of the following:
 admin rights. To do so, click on *Users & permissions* in the navigation panel, and then click on *API tokens*.
 Click on *create token* to create a new token.
 
-![Creating an API token](api_token_screenshot.png)
+![Creating an API token](../pictures/api_token_screenshot.png)
 
 Give your new token a name, save the token in safe place and assign the following roles to the token: project editor and blob admin.
 These roles can be assigned on project level.

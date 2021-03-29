@@ -2,6 +2,10 @@
 
 _Download link for necessary files_: [Recommender model files](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/recommender-system/recommender-system)
 
+!!! info "This recipe is related to a blogpost"
+    In a blogpost we explain how to put this recommender model behind a WebApp. You can read it
+    [here](https://ubiops.com/how-to-build-and-implement-a-recommendation-system-from-scratch-in-python/).
+
 In this example we will show you the following:
 
 - how to train a recommender model on shopping data using the Apriori algorithm
