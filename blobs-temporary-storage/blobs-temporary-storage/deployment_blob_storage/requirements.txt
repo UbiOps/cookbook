@@ -1,1 +1,1 @@
-ubiops
+ubiops==3.2.0
