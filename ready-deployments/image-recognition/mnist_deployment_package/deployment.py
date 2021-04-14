@@ -4,7 +4,7 @@ class and 'request' method.
 """
 
 import os
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 from imageio import imread
 import numpy as np
 
