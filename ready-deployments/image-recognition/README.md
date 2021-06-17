@@ -1,5 +1,11 @@
 # Image recognition deployment
 
+<div class="videoWrapper">
+
+<iframe src="https://www.youtube.com/embed/uPw05Djo-uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
 Image recognition is widely used nowadays. Image recognition apps are fairly straightforward to deploy on UbiOps
 and in [this deployment package](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/ready-deployments/image-recognition/mnist_deployment_package) you can see an example. It is a model that predicts hand written digits.
 It takes a picture of a handwritten digit as input and returns its prediction of what digit it is. We have put the

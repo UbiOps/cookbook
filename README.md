@@ -50,6 +50,9 @@ UbiOps account.
 | [Integration with MLflow model tuning tool](mlflow-example/README.md)                                                     | Deployments                         |
 | [Integration with snowflake cloud-based data-warehouse](snowflake/README.md)                                              | Integration, deployments                         |
 | [Integration with YData for imbalanced datasets](ydata-synthetic-data-fraud-detection/README.md)                                              | Integration, deployments, blobs                         |
+| [Integration with Pachyderm for automated retraining](pachyderm/README.md)                                              | Integration, deployments                         |
+| [Integration with Arthur for data science monitoring](arthurai/README.md)                                              | Integration, deployments                         |
+
 
 
 ## Requirements

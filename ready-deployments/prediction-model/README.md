@@ -1,5 +1,12 @@
 # Load & run a pre-trained (prediction) model
 
+<div class="videoWrapper">
+
+<iframe src="https://www.youtube.com/embed/K_Nvd01WB4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+
 Prediction models are a typical data science application. They are very straightforward to deploy on UbiOps
 and in [this deployment package](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/ready-deployments/prediction-model/predictor_package) you can see how it works. We have put the `deployment.py` here as well
 for your reference:

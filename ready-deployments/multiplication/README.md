@@ -1,5 +1,12 @@
 # Number multiplication
 
+<div class="videoWrapper">
+
+<iframe src="https://www.youtube.com/embed/2MRtdv-3bwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+
 To illustrate the basic working of the `deployment.py` required by UbiOps we have created a sample deployment
 that multiplies a given number by 2. You can download the deployment package as a zip (ready to be used) [here](https://download-github.ubiops.com/#!/home?url=https://github.com/UbiOps/cookbook/tree/master/ready-deployments/multiplication/deployment_package).
 
